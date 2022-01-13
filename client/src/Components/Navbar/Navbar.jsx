@@ -1,4 +1,5 @@
 import '../Navbar/Navbar.css'
+import { HashLink } from 'react-router-hash-link'
 
 export default function Navbar() {
     return (
@@ -7,9 +8,9 @@ export default function Navbar() {
                 <h1> Elliott Terral </h1>
             </div>
             <div className="banner-right">
-                <h3>About</h3>
-                <h3>Projects</h3>
-                <h3>Contact</h3>
+                <a href="#about"><h3>About</h3></a>
+                <a href="#projects"><h3>Projects</h3></a>
+                <a href="#contact"><h3>Contact</h3></a>
             </div>
         </div>
     )

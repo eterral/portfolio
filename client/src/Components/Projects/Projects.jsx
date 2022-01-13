@@ -6,6 +6,7 @@ import frntr from '../../assets/frntr.png'
 
 export default function Projects() {
     return (
+        <section id="projects">
         <div className='projects-container'>
 
             <div className='project'>
@@ -41,5 +42,6 @@ export default function Projects() {
                 </div>
             </div>
         </div>
+        </section>
     )
 }
