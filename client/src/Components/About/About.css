@@ -1,0 +1,16 @@
+.about-container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F1DE;
+    color: #3D405B;
+}
+
+.about-text {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-size: 3vh;
+}

@@ -1,0 +1,35 @@
+.header-container{
+    display: flex;
+}
+.panel{
+    width: 10vw;
+    height: 800px;
+    background-color: #E07A5F;
+    transition: 1s;
+    animation: ease-in;
+}
+.panel:hover{
+    background-color: #F4F1DE;
+}
+
+.header-info{
+    position: absolute;
+    top: 10vh;
+    left: 25vw;
+    width: 50vw;
+    height: 70vh;
+    background-color: #F4F1DE;
+    border: 3px solid #E07A5F;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    color: #3D405B;
+    margin: 0 -1em;
+}
+
+.howdy{
+    color: #F2CC8F;
+}

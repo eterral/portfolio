@@ -1,0 +1,47 @@
+.projects-container{
+    background-color: #E07A5F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 140vh;
+    width: 100vw;
+}
+.project{
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    /* flex-direction: column; */
+
+}
+.project-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F4F1DE;
+    color: #3D405B;
+    width: 40vw;
+    height: 35vh
+}
+
+.project-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F1DE;
+    color: #3D405B;
+    width: 40vw;
+    height: 35vh
+}
+
+.project-row-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-row-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
