@@ -2,18 +2,18 @@
     background-color: #E07A5F;
     display: flex;
     flex-direction: column;
-    justify-content: space space-between;
+    justify-content: space space-evenly;
     align-items: center;
-    height: 230vh;
+    height: 250vh;
     width: 100vw;
-    gap: 20px
+    gap: 10vh
 }
 .project{
     width: 50vw;
     height: 70vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 6vh;
 
