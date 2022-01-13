@@ -3,7 +3,7 @@
 }
 .panel{
     width: 10vw;
-    height: 800px;
+    height: 100vh;
     background-color: #E07A5F;
     transition: 1s;
     animation: ease-in;
