@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space space-between;
     align-items: center;
-    height: 300vh;
+    height: 230vh;
     width: 100vw;
     gap: 20px
 }
@@ -63,4 +63,10 @@
 .project-links{
     display: flex;
     flex-direction: row;
+}
+
+.space {
+    height: 10vh;
+    width: 100vw;
+    background-color: #E07A5F;
 }

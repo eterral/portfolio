@@ -7,8 +7,10 @@ import frntr from '../../assets/frntr.png'
 export default function Projects() {
     return (
         <section id="projects">
+                        <div className='space'>
+                
+                </div>
         <div className='projects-container'>
-
             <div className='project'>
                 <div className='project-box'>
                     <img src={misunderstood} />
