@@ -2,16 +2,20 @@
     background-color: #E07A5F;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    height: 140vh;
+    justify-content: space space-between;
+    align-items: center;
+    height: 220vh;
     width: 100vw;
+    gap: 20px
 }
 .project{
     width: 50vw;
     height: 70vh;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6vh;
 
 }
 .project-box {
@@ -20,22 +24,29 @@
     justify-content: center;
     background-color: #F4F1DE;
     color: #3D405B;
-    width: 40vw;
-    height: 35vh
+    width: 45vw;
+    height: 35vh;
+    border: -3px solid #E07A5F;
+    border-radius: 5px;
 }
 
 .project-info {
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F4F1DE;
-    color: #3D405B;
-    width: 40vw;
-    height: 35vh
+    color: hsl(234, 20%, 30%);
+    width: 30vw;
+    height: 20vh;
+    border: -5px solid #E07A5F;
+    border-radius: 5px;
+    gap: 10px;
 }
 
 .project-row-one{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -44,4 +55,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logo {
+    width: 2vw;
+}
+.project-links{
+    display: flex;
+    flex-direction: row;
 }
