@@ -37,7 +37,7 @@
     align-items: center;
     background-color: #F4F1DE;
     color: hsl(234, 20%, 30%);
-    width: 30vw;
+    width: 38vw;
     height: 20vh;
     border: -5px solid #E07A5F;
     border-radius: 5px;
@@ -69,6 +69,11 @@
     height: 10vh;
     width: 100vw;
     background-color: #E07A5F;
+}
+
+.image {
+    border: -5px solid #E07A5F;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 600px){

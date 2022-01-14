@@ -25,13 +25,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 4vh;
+    font-size: 7vh;
     color: #3D405B;
-    margin: 0 -1em;
+    /* margin: 0 -1em; */
 }
 
 .howdy{
     color: #F2CC8F;
+}
+
+.header-text{
+    margin: -1vh;
+    padding-bottom: 1vh;
 }
 
 @media only screen and (max-width: 600px) {

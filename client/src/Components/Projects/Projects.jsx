@@ -13,10 +13,10 @@ export default function Projects() {
         <div className='projects-container'>
             <div className='project'>
                 <div className='project-box'>
-                    <img src={misunderstood} />
+                    <img src={misunderstood} className='image'/>
                 </div>
                 <div className='project-info'>
-                    <a>Misundestood is built on HTML, CSS and JS. The app accesses two public APIs to display a random New Yorker cartoon with a caption taken from a random line of poetry. </a>
+                    <a>Misunderstood is built on HTML, CSS and JS. The app accesses two public APIs to display a random New Yorker cartoon with a caption taken from a random line of poetry. A favorite combination can be saved to local storage and a user can make a caption before seeing a cartoon.</a>
                     <div className='project-links'>
                         <a href="https://github.com/eterral/misunderstood" target="_blank" ><img src={git} className='logo' /></a>
                         <a href="https://eterral.github.io/misunderstood/" target="_blank"><img src={linkimg} className='logo' /></a>
@@ -25,7 +25,7 @@ export default function Projects() {
             </div>
             <div className='project'>
             <div className='project-box'>
-                    <img src={frntr} />
+                    <img src={frntr} className='image'/>
                 </div>
                 <div className='project-info'>
                     <a>frntr is a proof of concept web store. Built on the MERN stack, the app features unit testing of CRUD routes in the backend, association between the schemas in the database and hand-rolled authentication. Work is still in progress to build out a review system and role based access to CRUD</a>
