@@ -25,3 +25,14 @@
 a{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-box-container{
+        width: 50vw;
+    }
+}

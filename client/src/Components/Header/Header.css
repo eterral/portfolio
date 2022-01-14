@@ -33,3 +33,10 @@
 .howdy{
     color: #F2CC8F;
 }
+
+@media only screen and (max-width: 600px) {
+    .header-info{
+        left: 20vw;
+        width: 70vw
+    }
+}

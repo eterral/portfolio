@@ -70,3 +70,18 @@
     width: 100vw;
     background-color: #E07A5F;
 }
+
+@media only screen and (max-width: 600px){
+
+    .project-info {
+        width: 80vw;
+    }
+
+    .logo {
+        width: 5vw;
+    }
+
+    .project-box {
+        width: 80vw;
+    }
+}
