@@ -18,6 +18,7 @@
 .banner-right{
     display: flex;
     justify-content: space-around;
+    align-content: center;
     gap: 5vw;
     padding-right: 5vw;
 }

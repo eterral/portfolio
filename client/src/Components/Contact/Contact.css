@@ -1,7 +1,7 @@
 .contact-container{
     width: 100vw;
     height: 100vh;
-    background-color: #F4F1DE;
+    background-color: #E07A5F;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -16,7 +16,7 @@
     height: 7vh;
     background: #F2CC8F;
     border: 2px solid black;
-    box-shadow: 15px 15px 1px #3D405B, 15px 15px 1px 2px black, 20px 20px 20px 10px rgb(167, 167, 167);
+    box-shadow: 15px 15px 1px #3D405B, 15px 15px 1px 2px black, 10px 10px 10px 10px #3D405B;
     transition: 0.3s;
     animation: ease-in;
 }
