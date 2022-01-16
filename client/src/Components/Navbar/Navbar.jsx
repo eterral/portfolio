@@ -10,6 +10,7 @@ export default function Navbar() {
             <div className="banner-right">
                 <a href="#about"><h3>About</h3></a>
                 <a href="#projects"><h3>Projects</h3></a>
+                <a href="#skills"><h3>Skills</h3></a>
                 <a href="#contact"><h3>Contact</h3></a>
             </div>
         </div>
