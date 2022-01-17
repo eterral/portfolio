@@ -29,6 +29,8 @@
 .skill-img{
     height: 10vh;
     width: 5vw;
+    max-width: 125px;
+    max-height: 125px;
 }
 .skill-img2{
     height: 10vh;
