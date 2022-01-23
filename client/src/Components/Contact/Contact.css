@@ -29,7 +29,15 @@ a{
     text-decoration: none;
 }
 
+.email{
+    font-size: .8vw;
+}
+
 @media only screen and (max-width: 600px) {
+    .email{
+        font-size: 3vw;
+    }
+
     .contact-container{
         display: flex;
         flex-direction: column;
