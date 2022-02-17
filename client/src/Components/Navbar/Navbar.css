@@ -8,6 +8,9 @@
     background-color: #F4F1DE;
     color: #3D405B;
 }
+.navcontainer.sticky {
+    position: absolute !important;
+}
 
 .banner-left{
     display: flex;
